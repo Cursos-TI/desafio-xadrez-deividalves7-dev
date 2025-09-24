@@ -33,6 +33,23 @@ int main() {
         j++;
     } while (j <= casasRainha);
 
+    int casasBaixo = 2;
+    int casasEsquerda = 1;
+
+    printf("Movimento do Cavalo:\n");
+
+
+    for (int i = 1; i <= casasBaixo; i++) {
+        printf("Baixo\n");
+    }
+
+    int k = 1;
+    while (k <= casasEsquerda) {
+        printf("Esquerda\n");
+        k++;
+    }
+
     return 0;
 }
 
+    
